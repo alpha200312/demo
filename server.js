@@ -2,6 +2,8 @@ const cookieParser = require("cookie-parser")
 const express=require("express")
 const app=express()
 const path=require("path")
+const mongoose=require("mongoose")
+require('dotenv').config();
 
 const usermodel =require("./models/user")
 const postmodel =require("./models/post")
@@ -132,8 +134,6 @@ function loogedIn(req,res,next){
 
 
  
-
-
 
 
 
