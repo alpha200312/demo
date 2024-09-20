@@ -142,7 +142,7 @@ app.listen(3006)
 
 
 //user can write post
-//login and register`
+//login and register`ih
 //logout
 //post creation
 //post like karna
